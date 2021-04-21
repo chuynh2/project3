@@ -1,0 +1,78 @@
+html {
+	font-family: 'Spartan', sans-serif;
+	font-size: 17px;
+}
+#main-header {
+	background-color: #050540;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	overflow: hidden;
+}
+#main-navbar {
+	background-color: #6643d1;
+	overflow: hidden;
+}
+#main-navbar div ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #6643d1;
+}
+#main-navbar div ul li {
+	float: left;
+}
+#main-navbar div ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+#main-navbar div ul li a:hover {
+  background-color: #f4fab9;
+  color: black;
+}
+#main{
+	background-color: #f4fab9;
+	box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.3), 10px 0px 10px -5px rgba(0,0,0,0.3);
+	width: 1000px;
+	margin: 0 auto;
+	padding: 100px;
+}
+table{
+	margin: 0 auto;
+	padding: 5px;
+	width: 100%;
+} 
+td{
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+td img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{ 
+	background-size: cover;
+	background-image: url(../media/overlay.png);
+	background-repeat: no-repeat;
+}
+.label {
+	Font-size: 50px;
+	text-decoration: underline;
+}
+.text {
+	font-size: 20px;
+}
+.caption {
+	font-size: 15px;
+	color: gray;
+}
+.subheading {
+	font-size: 35px;
+}
