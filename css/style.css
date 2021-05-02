@@ -42,6 +42,19 @@ html {
 	margin: 0 auto;
 	padding: 100px;
 }
+#map {
+	height: 600px;
+	width: 100%;
+	margin: 0 auto;
+}
+#mapInfo {
+	text-align: center;
+	width: 500px;
+	padding: 50px;
+	margin: 50px auto;
+	background-color: white;
+	box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.3), 10px 0px 10px -5px rgba(0,0,0,0.3);
+}
 table{
 	margin: 0 auto;
 	padding: 5px;
@@ -76,3 +89,8 @@ body{
 .subheading {
 	font-size: 35px;
 }
+.googleMapsInfo{
+	color: gray;
+	width: 300px;
+}
+
