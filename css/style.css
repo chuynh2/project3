@@ -93,4 +93,12 @@ body{
 	color: gray;
 	width: 300px;
 }
+.slider {
+	background-color: white;
+	box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.3), 10px 0px 10px -5px rgba(0,0,0,0.3);
+}
+.slider img {
+	margin:0 auto;
+	vertical-align: middle;
+}
 

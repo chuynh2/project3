@@ -41,4 +41,10 @@ function initMap(){
 	});
 	
 }
+
+$(document).ready(function(){
+	$('.slider').bxSlider({
+		captions:true
+	});
+});
 google.maps.events.addDomListener(window, 'load', initMap);
